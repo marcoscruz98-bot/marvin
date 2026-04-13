@@ -1,4 +1,8 @@
 #paragrafo{
 
   text-transform: uppercase;
+  font-size: 3em;
+  text-align: left;
+  font-family: Lucida Console;
+  text-indent: 1.2em;
 }
