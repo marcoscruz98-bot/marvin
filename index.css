@@ -1,13 +1,41 @@
-#paragrafo{
+#paragrafo1{
 
-  text-transform: uppercase;
-  font-size: 3em;
-  color: lightgray;
-  font-family: Lucida Console;
-  text-indent: 1.2em;
-  text-shadow: 1px 1px 1px red;
-  text-decoration-line: underline;
-  text-decoration-style: solid;
-  text-decoration-color: blue;
-  text-decoration-thickness: 0.2em;
+	font-size: 1.5em;
+	color: crimson;
+	font-family: "Arial";
+	text-align: center;
+	text-transform: capitalize;
+}
+
+#paragrafo2{
+
+	font-size: 1.7em;
+	color: brown;
+	font-family: "Courier New";
+	text-align: left;
+	text-transform: uppercase;
+}
+
+#paragrafo3{
+
+	font-size: 1.9em;
+	color: orchid;
+	font-family: "Verdana";
+	text-align: right;
+	text-transform: lowercase;
+}
+
+#regua1{
+
+	border: solid blue;
+}
+
+#regua2{
+
+	border: dotted orange;
+}
+
+#regua3{
+
+	border: dashed crimson;
 }
