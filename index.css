@@ -39,3 +39,23 @@
 
 	border: dashed crimson;
 }
+
+p{
+
+	color: coral;
+}
+#ol1{
+
+	list-style-type: lower-alpha;
+}
+
+#ol1 > li::marker{
+
+	color: red;
+}
+
+#video_0{
+
+	border-radius: 10px;
+	filter: drop-shadow(2px 2px 5px gray);
+}

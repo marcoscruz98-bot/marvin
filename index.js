@@ -39,3 +39,13 @@ function mudar_regua_3(){
 
 	document.getElementById("regua3").style.border = "solid blue";
 }
+
+function mudar_cor(){
+
+	document.getElementById("p1").style.color = "turquoise";
+}
+
+function mudar_ol1(){
+
+	document.getElementById("ol1").style.listStyleType = "decimal";
+}
