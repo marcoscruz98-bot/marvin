@@ -238,3 +238,164 @@ function mudar_ul1(){
 	document.getElementById("ul1").style.listStyleType = "circle";
 }
 ```
+
+<br>
+
+## 4. Imagens
+
+<br>
+
+### A) Imagens por padrão em um site:
+
+#### Exemplo:
+
+```html
+<figure>
+
+	<img id ="gif0" onmouseenter ="mudar_gif0()" src="./imagens/html-css-js.gif" alt="GIF com a diferença entre HTML, CSS e Javascript" width="480" height="480">
+	
+</figure>
+```
+
+<br>
+
+<br>
+
+### B) Customizando com o CSS
+
+#### Exemplo adicionando arredondamento da borda, opacidade, borrão, brilho e sombreado de uma imagem:
+
+```css
+#gif0{
+
+	border-radius: 30px;
+	opacity: 0.8;
+	filter: blur(2px) brightness(150%) drop-shadow(10px 10px 1px red);
+}
+```
+
+<br>
+
+### C) Adicionando interação com o JS.
+
+#### Exemplo modificando a imagem:
+
+```js
+function mudar_gif0(){
+
+	document.getElementById("gif0").style.borderRadius = "15px";
+	document.getElementById("gif0").style.opactiy = "0.7";
+	document.getElementById("gif0").style.filter = "blur(3px)";
+	document.getElementById("gif0").style.filter = "brightness(70%)";
+	document.getElementById("gif0").style.filter = "drop-shadow(6px 7px 2px coral)";
+}
+```
+
+<br>
+
+## 5. Vídeos
+
+<br>
+
+### A) Vídeos por padrão em um site
+
+#### Exemplo:
+
+```html
+<video id="video_0" width ="640" height="360" controls>
+	
+	<source src="./videos/movie1.mp4" type="video/mp4">
+
+</video>
+```
+
+<br>
+
+### B) Vídeos vindo do Youtube com iframe
+
+#### Exemplo:
+
+```html
+<iframe width="640" height="360" src="https://www.youtube.com/embed/LXb3EKWsInQ" title="COSTA RICA IN 4K 60fps HDR (ULTRA HD)" allowfullscreen></iframe>
+```
+
+<br>
+
+### C) Customizando com o CSS
+
+#### Exemplo adicionando arredondamento da borda e sombreado no vídeo:
+
+<br>
+
+```css
+#video_0{
+
+	border-radius: 10px;
+	filter: drop-shadow(2px 2px 5px gray);
+}
+```
+
+<br>
+
+## 6. Hiperlinks
+
+<br>
+
+### A) Hiperlinks para outros sites
+
+#### Exemplo abrindo o link em outra aba do navegador:
+
+```html
+<nav>
+
+	<a id="link_0" href ="https://www.google.com" target ="_blank">Google</a>
+
+</nav>
+```
+
+#### Exemplo abrindo o link na mesma aba do navegador:
+
+```html
+<nav>
+
+	<a id="link_1" href ="https://www.youtube.com">Youtube</a>
+
+</nav>
+```
+
+<br>
+
+### C) Customizando com o CSS
+
+#### Exemplo com os 4 estados de um link:
+
+<br>
+
+```css
+/* a aparência padrão do link */
+#link_0:link {
+	
+	color: magenta;
+	transition: font-size 2s;
+}
+
+/* segundos após o link ser clicado a aparência do link é alterada*/
+#link_0:visited {
+	
+	color: none;
+}
+
+/* altera a aparência quando o mouse passa por cima (hover) do link */
+#link_0:hover {
+	
+	color: hotpink;
+	font-size: 2em;
+	transition: font-size 2s;
+}
+
+/* altera a cor no exato momento que o link é clicado com o mouse */
+#link_0:active {
+	
+	color: none;
+}
+```
