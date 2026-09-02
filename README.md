@@ -399,3 +399,82 @@ function mudar_gif0(){
 	color: none;
 }
 ```
+
+<br>
+
+## 7 Menus e Seções
+
+<br>
+
+### A) Menu de navegação inicial:  <code>header</code>
+
+#### É o primeiro elemento dentro do body:
+
+```html
+<body>
+	
+<header>
+
+<!-- links, botões, menus ocultos ficam aqui-->
+
+</header>
+
+</body>
+```
+
+
+<br>
+
+### B) Menu de navegação principal:  <code>main</code>
+
+#### Onde o conteúdo principal da página fica dentro do body:
+
+```html
+<body>
+	
+<header>
+
+<!-- links, botões e menus ocultos ficam aqui-->
+
+</header>
+
+<main>
+
+<!-- parágrafos, títulos, imagens, vídeos e animações ficam aqui -->
+	
+</main>
+
+</body>
+```
+
+
+<br>
+
+### C) Menu de navegação final:  <code>footer</code>
+
+#### Onde as informações de contato ficam dentro do body:
+
+```html
+<body>
+	
+<header>
+
+<!-- links, botões e menus ocultos ficam aqui-->
+
+</header>
+
+<main>
+
+<!-- Parágrafos, títulos, imagens, vídeos e animações ficam aqui -->
+	
+</main>
+
+<footer>
+	
+<!-- telefone, endereço, email e outros canais de comunicação ficam aqui -->
+
+</footer>
+
+</body>
+```
+
