@@ -53,13 +53,37 @@ header{
   font-size: 3em;
 }
 
-#div1{
+#secao_3_1{
 
   display: flex;
   align-items: center;
-  width: 50%;
+  width: 80%;
   margin: auto;
 }
+
+#secao_4{
+
+  margin: auto;
+  width: 50%;
+}
+
+#secao_5{
+  background-color: #000000;
+  margin: 0;
+  display: flex;
+  color: #FAD05A;
+  flex-direction: column;
+
+}
+
+#secao_6{
+  background-color: #5A7CFA;
+  margin: 0;
+  display: flex;
+  color: #FAD05A;
+  flex-direction: column;
+}
+
 
 #menu_primario{
   display: inline;
