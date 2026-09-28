@@ -5,17 +5,14 @@ body{
   font-family: 'Trebuchet MS','Lucida Grande', sans-serif;
 }
 
-header{
-
-  background-color: #5A7CFA;
-}
-
 #secao_1{
 
   background-color: #5A7CFA;
   color:#000000;
   margin: 0;
   display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
 #titulo_2{
@@ -31,6 +28,8 @@ header{
   margin: 0;
   display: flex;
   color: #FAD05A;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
 #titulo_3{
@@ -43,7 +42,6 @@ header{
 #secao_3{
 
   background-color: #802E42;
-  margin: 0;
   color: #FFFFFF;
   text-align: center;
 }
@@ -57,8 +55,8 @@ header{
 
   display: flex;
   align-items: center;
-  width: 80%;
   margin: auto;
+  justify-content: space-evenly;
 }
 
 #secao_4{
@@ -68,15 +66,16 @@ header{
 }
 
 #secao_5{
+
   background-color: #000000;
   margin: 0;
   display: flex;
   color: #FAD05A;
   flex-direction: column;
-
 }
 
 #secao_6{
+
   background-color: #5A7CFA;
   margin: 0;
   display: flex;
@@ -84,8 +83,8 @@ header{
   flex-direction: column;
 }
 
-
 #menu_primario{
+
   display: inline;
   text-align: center;
 }
