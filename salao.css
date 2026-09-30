@@ -77,7 +77,7 @@ footer{
 }
 
 #titulo_4{
-  
+
   margin: 0;
   font-size: 3em;
 }
@@ -88,6 +88,10 @@ footer{
   width: 50%;
 }
 
+#titulo_5{
+
+  font-size: 2em;
+}
 #secao_5{
 
   margin: 0;
@@ -96,6 +100,10 @@ footer{
   flex-direction: column;
 }
 
+#titulo_6{
+
+  font-size: 2em;
+}
 #secao_6{
 
   margin: 0;
