@@ -29,35 +29,35 @@ footer{
 
 #secao_1{
 
+  align-items: center;
   background-color: #5A7CFA;
   color:#000000;
-  margin: 0;
   display: flex;
-  align-items: center;
   justify-content: space-evenly;
+  margin: 0;
 }
 
 #titulo_2{
 
-  display: flex;
   align-items: center;
+  display: flex;
   font-size: 3.5em;
 }
 
 #secao_2{
 
-  background-color: #000000;
-  margin: 0;
-  display: flex;
-  color: #FAD05A;
   align-items: center;
+  background-color: #000000;
+  color: #FAD05A;
+  display: flex;
   justify-content: space-evenly;
+  margin: 0;
 }
 
 #titulo_3{
 
-  display: flex;
   align-items: center;
+  display: flex;
   font-size: 3.5em;
 }
 
@@ -70,16 +70,16 @@ footer{
 
 #secao_3_1{
 
-  display: flex;
   align-items: center;
-  margin: auto;
+  display: flex;
   justify-content: space-evenly;
+  margin: auto;
 }
 
 #titulo_4{
 
-  margin: 0;
   font-size: 3em;
+  margin: 0;
 }
 
 #secao_4{
@@ -95,10 +95,10 @@ footer{
 
 #secao_5{
 
-  margin: 0;
-  display: flex;
   color: black;
+  display: flex;
   flex-direction: column;
+  margin: 0;
 }
 
 #titulo_6{
@@ -108,8 +108,8 @@ footer{
 
 #secao_6{
 
-  margin: 0;
-  display: flex;
   color: black;
+  display: flex;
   flex-direction: column;
+  margin: 0;
 }
