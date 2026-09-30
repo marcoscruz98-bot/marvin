@@ -98,6 +98,7 @@ footer{
 
 #secao_5{
 
+  align-items: center;
   color: black;
   display: flex;
   flex-direction: column;
@@ -111,6 +112,7 @@ footer{
 
 #secao_6{
 
+  align-items: center;
   color: black;
   display: flex;
   flex-direction: column;
