@@ -7,7 +7,7 @@ body{
 
 header{
 
-
+  background-color: #5A7CFA;
 }
 
 main{
@@ -42,7 +42,15 @@ footer{
 
   align-items: center;
   display: flex;
-  font-size: 3.5em;
+  font-size: 3.5vw;
+}
+
+#img1{
+
+  border-radius: 10px;
+  box-shadow: 2px 2px 22px red;
+  width: 100%;
+  height: auto;
 }
 
 #secao_2{
@@ -56,11 +64,19 @@ footer{
   margin: 0;
 }
 
+#img2{
+
+  border-radius: 10px;
+  box-shadow: 2px 2px 22px red;
+  width: 100%;
+  height: auto;
+}
+
 #titulo_3{
 
   align-items: center;
   display: flex;
-  font-size: 3.5em;
+  font-size: 3.5vw;
 }
 
 #secao_3{
@@ -81,19 +97,53 @@ footer{
 
 #titulo_4{
 
-  font-size: 3em;
+  font-size: 3vw;
+  margin: 0;
+}
+
+#titulo_4_1{
+
+  font-size: 2.2vw;
+  margin: 0;
+}
+
+#titulo_4_2{
+
+  font-size: 2.2vw;
+  margin: 0;
+}
+
+#img3{
+
+  border-radius: 10px;
+  box-shadow: 2px 2px 22px red;
+  width: 100%;
+  height: auto;
+}
+
+#titulo_4_3{
+
+  font-size: vw;
   margin: 0;
 }
 
 #secao_4{
 
-  margin: auto;
-  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+#img4{
+
+  border-radius: 10px;
+  box-shadow: 2px 2px 22px red;
+  width: 100%;
+  height: auto;
 }
 
 #titulo_5{
 
-  font-size: 2em;
+  font-size: 2vw;
 }
 
 #secao_5{
@@ -107,7 +157,7 @@ footer{
 
 #titulo_6{
 
-  font-size: 2em;
+  font-size: 2vw;
 }
 
 #secao_6{
@@ -117,4 +167,14 @@ footer{
   display: flex;
   flex-direction: column;
   margin: 0;
+}
+
+#p1{
+
+  font-size: 1.3vw;
+}
+
+#p2, #p3, #p4, #p5, #p6, #p7{
+
+  font-size: 1vw;
 }
