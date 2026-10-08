@@ -10,12 +10,11 @@ header{
   background-color: #5A7CFA;
 }
 
-main{
-
+#menu_principal{
 
 }
 
-footer{
+#menu_secundario{
 
   display: flex;
   justify-content: space-evenly;  
@@ -101,13 +100,7 @@ footer{
   margin: 0;
 }
 
-#titulo_4_1{
-
-  font-size: 2.2vw;
-  margin: 0;
-}
-
-#titulo_4_2{
+#titulo_4_1, #titulo_4_2, #titulo_4_3{
 
   font-size: 2.2vw;
   margin: 0;
@@ -119,12 +112,6 @@ footer{
   box-shadow: 2px 2px 22px red;
   width: 100%;
   height: auto;
-}
-
-#titulo_4_3{
-
-  font-size: 2.2vw;
-  margin: 0;
 }
 
 #secao_4{
