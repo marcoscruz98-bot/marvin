@@ -39,8 +39,6 @@ header{
 
 #titulo_2{
 
-  align-items: center;
-  display: flex;
   font-size: 3.5vw;
 }
 
@@ -72,9 +70,8 @@ header{
 }
 
 #titulo_3{
-
-  align-items: center;
-  display: flex;
+  
+  text-align: center;
   font-size: 3.5vw;
 }
 
@@ -159,6 +156,7 @@ header{
 #p1{
 
   font-size: 1.3vw;
+  text-align: center;
 }
 
 #p2, #p3, #p4, #p5, #p6, #p7{
