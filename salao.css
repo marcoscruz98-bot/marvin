@@ -47,7 +47,7 @@ header{
 #img1{
 
   border-radius: 10px;
-  box-shadow: 2px 2px 22px red;
+  box-shadow: 2px 2px 22px 5px red;
   width: 100%;
   height: auto;
 }
@@ -66,7 +66,7 @@ header{
 #img2{
 
   border-radius: 10px;
-  box-shadow: 2px 2px 22px red;
+  box-shadow: 2px 2px 22px 5px red;
   width: 100%;
   height: auto;
 }
@@ -109,7 +109,7 @@ header{
 #img3{
 
   border-radius: 10px;
-  box-shadow: 2px 2px 22px red;
+  box-shadow: 2px 2px 22px 5px red;
   width: 100%;
   height: auto;
 }
@@ -123,7 +123,7 @@ header{
 #img4{
 
   border-radius: 10px;
-  box-shadow: 2px 2px 22px red;
+  box-shadow: 2px 2px 22px 5px red;
   width: 100%;
   height: auto;
 }
