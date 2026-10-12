@@ -477,4 +477,3 @@ function mudar_gif0(){
 
 </body>
 ```
-
