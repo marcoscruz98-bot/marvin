@@ -10,10 +10,6 @@ header{
   background-color: #5A7CFA;
 }
 
-#menu_principal{
-
-}
-
 #menu_secundario{
 
   display: flex;
@@ -45,7 +41,7 @@ header{
 #img1{
 
   border-radius: 10px;
-  box-shadow: 2px 2px 22px 5px red;
+  box-shadow: 2px 2px 20px 2px red;
   width: 100%;
   height: auto;
 }
@@ -64,7 +60,7 @@ header{
 #img2{
 
   border-radius: 10px;
-  box-shadow: 2px 2px 22px 5px red;
+  box-shadow: 2px 2px 20px 2px red;
   width: 100%;
   height: auto;
 }
@@ -106,7 +102,7 @@ header{
 #img3{
 
   border-radius: 10px;
-  box-shadow: 2px 2px 22px 5px red;
+  box-shadow: 2px 2px 20px 2px red;
   width: 100%;
   height: auto;
 }
@@ -120,14 +116,9 @@ header{
 #img4{
 
   border-radius: 10px;
-  box-shadow: 2px 2px 22px 5px red;
+  box-shadow: 2px 2px 20px 2px red;
   width: 100%;
   height: auto;
-}
-
-#titulo_5{
-
-  font-size: 2vw;
 }
 
 #secao_5{
@@ -139,7 +130,7 @@ header{
   margin: 0px;
 }
 
-#titulo_6{
+#titulo_5, #titulo_6{
 
   font-size: 2vw;
 }
@@ -162,4 +153,94 @@ header{
 #p2, #p3, #p4, #p5, #p6, #p7{
 
   font-size: 1vw;
+}
+
+
+/* Daqui para baixo é o uso de media query, responsável por otimizar a exibição para tamanhos de telas diferentes */
+
+/* Tela com largura de até 440 pixels (iphone 14/15/16/17/18 PRO MAX*/
+
+/* Não serão mudadas todas as características, somentes aquelas influenciadas pelo tamanho da tela */
+
+@media screen and (max-width: 440px) {
+
+  #menu_secundario{
+
+    flex-direction: column;  
+  }
+
+  #secao_1{
+
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  #titulo_2{
+
+    font-size: 5.5vw;
+  }
+
+  #img1{
+
+    width: 70%;
+  }
+
+  #secao_2{
+
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  #img2{
+
+    width: 80%;
+  }
+
+  #titulo_3{
+
+    font-size: 5.5vw;
+  }
+
+  #secao_3_1{
+
+    flex-direction: column;
+  }
+
+  #titulo_4{
+
+    font-size: 5.5vw;
+    margin-bottom: 20px;
+  }
+
+  #titulo_4_1, #titulo_4_2, #titulo_4_3{
+
+    font-size: 3.8vw;
+    margin-bottom: 10px;
+  }
+
+  #img3{
+
+    width: 80%;
+  }
+
+  #secao_4{
+
+    text-align: center;
+  }
+
+  #img4{
+
+    width: 80%;
+  }
+
+  #titulo_5, #titulo_6{
+
+    font-size: 5.5vw;
+  }
+
+  #p1, #p2, #p3, #p4, #p5, #p6, #p7{
+
+    font-size: 3.8vw;
+  }
+
 }
