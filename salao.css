@@ -7,13 +7,7 @@ body{
 
 header{
 
-  background-color: #5A7CFA;
-}
-
-#menu_secundario{
-
-  display: flex;
-  justify-content: space-evenly;  
+  background-color: #5a7cfa;
 }
 
 #titulo{
@@ -121,7 +115,22 @@ header{
   height: auto;
 }
 
+#menu_secundario{
+
+  display: flex;
+  justify-content: space-evenly;  
+}
+
 #secao_5{
+
+  align-items: center;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+}
+
+#secao_6{
 
   align-items: center;
   color: black;
@@ -133,15 +142,6 @@ header{
 #titulo_5, #titulo_6{
 
   font-size: 2vw;
-}
-
-#secao_6{
-
-  align-items: center;
-  color: black;
-  display: flex;
-  flex-direction: column;
-  margin: 0px;
 }
 
 #p1{
